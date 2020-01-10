@@ -10,7 +10,7 @@ Conversation.findOrCreateConversation = function(user1Id, user2Id) {
       return conversation;
     } else {
       return Conversation.create(
-        {Op
+        {
           user1Id: user1Id,
           user2Id: user2Id
         },
