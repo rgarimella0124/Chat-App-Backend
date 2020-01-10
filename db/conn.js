@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 // const dotenv = require('dotenv');
 var conn = new Sequelize(
-  "postgres://postgresRam:helloworld12@seconddb.cykw6tqn03sy.ap-south-1.rds.amazonaws.com:5432/dev_db",
+  "postgres://postgresRam:helloworld12@seconddb.cykw6tqn03sy.ap-south-1.rds.amazonaws.com:5432",
   {
     retry: {
       match: [
